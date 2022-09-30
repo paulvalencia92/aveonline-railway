@@ -1,0 +1,81 @@
+{
+  "name": "rn_fair_bill",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "postinstall": "npx jetify"
+  },
+  "dependencies": {
+    "@eva-design/eva": "^2.0.0",
+    "@motify/skeleton": "^0.11.0",
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/bottom-tabs": "^5.11.8",
+    "@react-navigation/native": "^5.9.3",
+    "@react-navigation/stack": "^5.14.3",
+    "@types/lodash": "^4.14.172",
+    "@types/numeral": "^2.0.1",
+    "@ui-kitten/components": "^5.0.0",
+    "@ui-kitten/eva-icons": "^5.0.0",
+    "babel-preset-expo": "^8.4.1",
+    "dayjs": "^1.10.4",
+    "firebase": "8.2.3",
+    "i18next": "^19.9.2",
+    "lodash": "^4.17.21",
+    "moti": "^0.11.0",
+    "numeral": "^2.0.6",
+    "react": "17.0.1",
+    "react-dom": "16.13.1",
+    "react-hook-form": "^7.11.0",
+    "react-i18next": "^11.8.10",
+    "react-native": "0.64.2",
+    "react-native-bootsplash": "^3.2.4",
+    "react-native-camera": "^4.0.2",
+    "react-native-camera-hooks": "^0.5.1",
+    "react-native-contacts": "^7.0.2",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-image-picker": "^4.0.6",
+    "react-native-keyboard-aware-scroll-view": "^0.9.4",
+    "react-native-modal": "^12.0.3",
+    "react-native-modalize": "^2.0.8",
+    "react-native-pager-view": "5.0.12",
+    "react-native-permissions": "^3.0.5",
+    "react-native-reanimated": "~2.2.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-svg": "12.1.1",
+    "react-native-tab-view": "^3.0.1",
+    "react-native-web": "~0.13.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/node": "^16.6.1",
+    "@types/react": "^17.0.18",
+    "@types/react-native": "^0.64.13",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "7.14.0",
+    "jest": "^26.6.3",
+    "jetifier": "^2.0.0",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "react-native-typescript-transformer": "^1.2.13",
+    "react-test-renderer": "17.0.1",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  }
+}
